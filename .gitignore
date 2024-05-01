@@ -23,6 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 eventvenv/*
-Backend/static/event.json
-Backend/static/trial[1].json
 Backend/
+Frontend/.env
