@@ -1,0 +1,26 @@
+[
+    {
+      "price": 15000,
+      "type": "Full Membership"
+    },
+    {
+      "type": "Associate/Social Membership",
+      "price": 5000
+    },
+    {
+      "type": "Family Membership",
+      "price": 17000
+    },
+    {
+      "type": "Jalsa",
+      "price": 1222
+    },
+    {
+      "type": "Golden",
+      "price": 15000
+    },
+    {
+      "type": "Premium",
+      "price": 5000
+    }
+  ]

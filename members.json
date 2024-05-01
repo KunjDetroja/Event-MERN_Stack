@@ -1,0 +1,293 @@
+[
+    {
+        "memberid": "123456789",
+        "name": "Raj Patel",
+        "email": "rajpatel123@gmail.com",
+        "phonenumber": 9856423017,
+        "gender": "male",
+        "membertype": "Associate/Social Membership",
+        "subscribe": false,
+        "is_login": true,
+        "start_date": {
+          "$date": "2012-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-03-15T00:00:00.000Z"
+        },
+        "username": "user1234",
+        "password": "password1234",
+        "clubname": "Rajpath",
+        "is_active": true
+      },
+      {
+        "memberid": "987654321",
+        "name": "Sara Khan",
+        "email": "sarakhan@gmail.com",
+        "phonenumber": 8765432109,
+        "gender": "female",
+        "membertype": "Full Membership",
+        "subscribe": false,
+        "is_login": true,
+        "start_date": {
+          "$date": "2022-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-07-22T00:00:00.000Z"
+        },
+        "username": "user5678",
+        "password": "password5678"
+      },
+      {
+        "memberid": "456789012",
+        "name": "Michael Johnson",
+        "email": "michaeljohnson@gmail.com",
+        "phonenumber": 7890123456,
+        "gender": "male",
+        "membertype": "Family Membership",
+        "subscribe": false,
+        "is_login": false,
+        "start_date": {
+          "$date": "2010-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-12-01T00:00:00.000Z"
+        },
+        "username": "user9012",
+        "password": "password9012"
+      },
+      {
+        "memberid": "789012345",
+        "name": "Emily Davis",
+        "email": "emilydavis@gmail.com",
+        "phonenumber": 6543210987,
+        "gender": "female",
+        "membertype": "Associate/Social Membership",
+        "subscribe": false,
+        "is_login": false,
+        "start_date": {
+          "$date": "2023-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-05-18T00:00:00.000Z"
+        },
+        "username": "user3456",
+        "password": "password3456"
+      },
+      {
+        "memberid": "123098765",
+        "name": "David Miller",
+        "email": "davidmiller@gmail.com",
+        "phonenumber": 9876543210,
+        "gender": "male",
+        "membertype": "Family Membership",
+        "subscribe": false,
+        "is_login": false,
+        "start_date": {
+          "$date": "2001-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-10-08T00:00:00.000Z"
+        },
+        "username": "user7890",
+        "password": "password7890"
+      },
+      {
+        "memberid": "567890123",
+        "name": "Sophia Turner",
+        "email": "sophiaturner@gmail.com",
+        "phonenumber": 8765432109,
+        "gender": "female",
+        "membertype": "Full Membership",
+        "subscribe": false,
+        "is_login": false,
+        "start_date": {
+          "$date": "2022-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-02-28T00:00:00.000Z"
+        },
+        "username": "user2345",
+        "password": "password2345"
+      },
+      {
+        "memberid": "234567890",
+        "name": "John White",
+        "email": "johnwhite@gmail.com",
+        "phonenumber":7654321098,
+        "gender": "male",
+        "membertype": "Full Membership",
+        "subscribe": false,
+        "is_login": false,
+        "start_date": {
+          "$date": "2005-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-09-14T00:00:00.000Z"
+        },
+        "username": "user6789",
+        "password": "password6789"
+      },
+      {
+        "memberid": "890123456",
+        "name": "Emma Brown",
+        "email": "emmabrown@gmail.com",
+        "phonenumber": 6543210987,
+        "gender": "female",
+        "membertype": "Associate/Social Membership",
+        "subscribe": true,
+        "is_login": false,
+        "start_date": {
+          "$date": "1981-04-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-04-03T00:00:00.000Z"
+        },
+        "username": "user0123",
+        "password": "password0123"
+      },
+      {
+        "memberid": "345678901",
+        "name": "Daniel Garcia",
+        "email": "danielgarcia@gmail.com",
+        "phonenumber": 5432109876,
+        "gender": "male",
+        "membertype": "Family Membership",
+        "subscribe": false,
+        "is_login": false,
+        "start_date": {
+          "$date": "2002-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-11-25T00:00:00.000Z"
+        },
+        "username": "user4567",
+        "password": "password4567"
+      },
+      {
+        "memberid": "901234567",
+        "name": "Olivia Smith",
+        "email": "oliviasmith@gmail.com",
+        "phonenumber": 8765432109,
+        "gender": "female",
+        "membertype": "Full Membership",
+        "subscribe": false,
+        "is_login": false,
+        "start_date": {
+          "$date": "2011-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-06-10T00:00:00.000Z"
+        },
+        "username": "user8901",
+        "password": "password8901"
+      },
+      {
+        "name": "Radhika",
+        "email": "radhe@gmail.com",
+        "phonenumber": 4512235689,
+        "gender": "female",
+        "username": "radhe",
+        "password": "krishna",
+        "memberid": "1478963258",
+        "membertype": "Family Membership",
+        "subscribe": false,
+        "is_login": false,
+        "start_date": {
+          "$date": "2014-03-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2031-01-24T00:00:00.000Z"
+        }
+      },
+      {
+        "name": "Grace",
+        "email": "grace@gmail.com",
+        "phonenumber": 9876543210,
+        "gender": "female",
+        "username": "grace123",
+        "password": "password123",
+        "membertype": "Full Membership",
+        "clubname": "Rajpath",
+        "memberid": "56239850",
+        "start_date": {
+          "$date": "2021-06-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2031-06-15T00:00:00.000Z"
+        },
+        "subscribe": true,
+        "is_login": true
+      },
+      {
+        "name": "Eva",
+        "email": "eva@gmail.com",
+        "phonenumber": 1234567890,
+        "gender": "female",
+        "username": "eva789",
+        "password": "password456",
+        "membertype": "Golden",
+        "memberid": "4596823",
+        "start_date": {
+          "$date": "2020-12-15T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2030-02-15T00:00:00.000Z"
+        },
+        "is_login": true,
+        "subscribe": true
+      },
+      {
+        "name": "Kusum",
+        "email": "kusum78@gmail.com",
+        "phonenumber": 986575230,
+        "gender": "female",
+        "username": "kusum78",
+        "password": "kusum78",
+        "memberid": "def7878",
+        "membertype": "Jalsa",
+        "expiry_date": {
+          "$date": "2033-01-08T00:00:00.000Z"
+        },
+        "start_date": {
+          "$date": "2023-01-08T00:00:00.000Z"
+        },
+        "is_login": false,
+        "subscribe": false
+      },
+      {
+        "name": "Charlie",
+        "email": "kl7313539@gmail.com",
+        "phonenumber": 5555555555,
+        "gender": "male",
+        "username": "charlie789",
+        "password": "password789",
+        "membertype": "Premium",
+        "memberid": "lucifer1234",
+        "start_date": {
+          "$date": "2021-05-05T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2024-05-05T00:00:00.000Z"
+        },
+        "is_login": true,
+        "subscribe": true
+      },
+      {
+        "name": "Frank",
+        "email": "kl7313539@gmail.com",
+        "phonenumber": 5555555545,
+        "gender": "male",
+        "username": "frank789",
+        "password": "password789",
+        "membertype": "Full Membership",
+        "memberid": "frankie4545",
+        "start_date": {
+          "$date": "2023-04-04T00:00:00.000Z"
+        },
+        "expiry_date": {
+          "$date": "2026-04-04T00:00:00.000Z"
+        },
+        "is_login": true,
+        "subscribe": true
+      }
+]
