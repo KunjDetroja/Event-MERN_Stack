@@ -23,8 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 eventvenv/*
-Backend/
-Frontend/.env
-node/node_modules/*
-node/.env
-.env
+Backend/*
+Frontend/
+node/
