@@ -25,3 +25,4 @@ yarn-error.log*
 eventvenv/*
 Backend/
 Frontend/.env
+node/.env
