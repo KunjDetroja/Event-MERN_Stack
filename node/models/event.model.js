@@ -1,28 +1,29 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const participateSchema = new Schema({
-    name: String,
-    email: String,
-    phone_number: Number,
-    gender: String,
-    usernane: Number,
-    age: Number,
-    payment_type: {
-        type: String,
-        enum: ["Online", "Offline"]
-    },
-    upi_id: String,
-    city : String,
+  name: String,
+  email: String,
+  phone_number: Number,
+  gender: String,
+  usernane: Number,
+  age: Number,
+  payment_type: {
+    type: String,
+    enum: ["Online", "Offline"],
+  },
+  upi_id: String,
+  city: String,
 });
 
 const feedbackSchema = new Schema({
-    username: String,
-    email: String,
-    feedback: String,
+  username: String,
+  email: String,
+  feedback: String,
 });
 
-const eventpostSchema = new Schema({
+const eventpostSchema = new Schema(
+  {
     clubname: String,
     event_title: String,
     event_image: String,
@@ -32,7 +33,7 @@ const eventpostSchema = new Schema({
     end_time: String,
     venue_name: String,
     venue_address: String,
-    type : String,
+    type: String,
     venue_city: String,
     ticket_price: Number,
     event_highlight: String,
@@ -42,10 +43,14 @@ const eventpostSchema = new Schema({
     event_organizer_email: String,
     event_organizer_pnumber: Number,
     participate: [participateSchema],
-    feedback:[feedbackSchema],
+    feedback: [feedbackSchema],
     is_active: Boolean,
     is_deleted: Boolean,
-});
+  },
+  {
+    timestamps: { createdAt: "created_at", updatedAt: "updated_at" },
+  }
+);
 
-const Eventpost = mongoose.model('Eventpost', eventpostSchema);
+const Eventpost = mongoose.model("Eventpost", eventpostSchema);
 module.exports = Eventpost;
